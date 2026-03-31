@@ -1,4 +1,4 @@
-# 🛡️ Server Health Sentinel
+# Server Health Sentinel
 
 This isn't just a script. It's a statement.
 
@@ -8,7 +8,7 @@ This script is one of those gauges. It was born not from a desire to "program," 
 
 The Health Sentinel is a simple, lightweight, and powerful Bash script that acts as a watchdog for your Linux server. It monitors your system's vital signs and sends you an instant alert on Discord the moment something goes wrong.
 
-## ✨ Features
+## Features
 
 *   **Monitors System Vitals:** CPU, RAM, and Disk usage.
 *   **Configurable Thresholds:** You decide what's normal for your system.
@@ -23,7 +23,7 @@ This script speaks the native language of Linux. Before you begin, ensure you ha
 *   **`curl`:** The command-line tool for making web requests. If it's not installed, run: `sudo apt update && sudo apt install curl`
 *   **A Discord Account:** To create a webhook for receiving alerts.
 
-## 🚀 Setup & Configuration
+##  Setup & Configuration
 
 Follow these steps to unleash your sentinel.
 
@@ -39,7 +39,7 @@ Open `health_monitor.sh` in your favorite text editor. The configuration variabl
 *   `CPU_THRESHOLD`, `RAM_THRESHOLD`, `DISK_THRESHOLD`: Set the percentage values that you consider to be "high usage."
 *   `WEBHOOK_URL`: This is the most important part. Paste your secret Discord webhook URL here.
 
-> **🔒 Security First:** Your webhook URL is a secret, like a password. Never share it or commit it to a public repository.
+> **  Security First:** Your webhook URL is a secret, like a password. Never share it or commit it to a public repository.
 
 ### 3. Run a Manual Test
 Test your sentinel to make sure it's working correctly.
